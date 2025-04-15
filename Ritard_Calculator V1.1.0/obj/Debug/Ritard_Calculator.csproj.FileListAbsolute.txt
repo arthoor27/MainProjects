@@ -8,3 +8,13 @@ C:\Users\HP\Desktop\lingangul\Ritard_Calculator\obj\Debug\Ritard_Calculator.cspr
 C:\Users\HP\Desktop\lingangul\Ritard_Calculator\obj\Debug\Ritard_Calculator.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\lingangul\Ritard_Calculator\obj\Debug\Ritard_Calculator.exe
 C:\Users\HP\Desktop\lingangul\Ritard_Calculator\obj\Debug\Ritard_Calculator.pdb
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\bin\Debug\Ritard_Calculator.exe.config
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\bin\Debug\Ritard_Calculator.exe
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\bin\Debug\Ritard_Calculator.pdb
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.Form1.resources
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.Properties.Resources.resources
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.exe
+C:\Users\HP\Desktop\lingangul\MainProjects\MainProjects\Ritard_Calculator V1.1.0\obj\Debug\Ritard_Calculator.pdb

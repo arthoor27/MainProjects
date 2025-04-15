@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Ritard_Calculator
 {
@@ -22,116 +23,188 @@ namespace Ritard_Calculator
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("WELCOME");
+            toolTip.SetToolTip(CheckBox, "check this square for regular calculator ");
+            toolTip.InitialDelay = 500;
+            toolTip.AutoPopDelay = 5000;
+            toolTip.ShowAlways = true;
         }
         private void btnSubtraction_Click(object sender, EventArgs e)
         {
-            if (EOutput() == false)
+            if (CheckBox.Checked)
             {
-                string rse = (string)calculate.RSE();
-                MessageBox.Show(rse);
-                return;
-            }
-            if (Emoutput() == false)
-            {
-                string rsem = (string)calculate.RSEm();
-                MessageBox.Show(rsem);
-                return;
-            }
-            if (EOutput() == true && Emoutput() == true)
-            {
-                if (Outputs())
+                if (EOutput() && Emoutput())
                 {
-                    string subtraction = (string)calculate.Subtraction(0, 0);
-                    MessageBox.Show(subtraction);
+                    int Num1 = Convert.ToInt32(txtNum1.Text);
+                    int Num2 = Convert.ToInt32(txtNum2.Text);
+                    int SUB = (int)calculate.Subtraction((int)Num1, (int)Num2);
+                    MessageBox.Show("answer :" + SUB);
                 }
                 else
                 {
-                    int subtraction = (int)calculate.Subtraction(0, 0);
-                    MessageBox.Show("Answer"+ " " + subtraction);
+                    MessageBox.Show("please enter just number");
+                }
+            }
+            else
+            {
+                if (!EOutput())
+                {
+                    string rse = (string)calculate.RSE();
+                    MessageBox.Show(rse);
+                    return;
+                }
+                if (!Emoutput())
+                {
+                    string rsem = (string)calculate.RSEm();
+                    MessageBox.Show(rsem);
+                    return;
+                }
+                if (EOutput() && Emoutput())
+                {
+                    if (Outputs())
+                    {
+                        string subtraction = (string)calculate.Subtraction();
+                        MessageBox.Show(subtraction);
+                    }
+                    else
+                    {
+                        int subtraction = (int)calculate.Subtraction();
+                        MessageBox.Show("Answer" + " " + subtraction);
+                    }
                 }
             }
         }
         private void btnSum_Click(object sender, EventArgs e)
         {
-            if (EOutput() == false)
+            if (CheckBox.Checked)
             {
-                string rse = (string)calculate.RSE();
-                MessageBox.Show(rse);
-                return;
-            }
-            if (Emoutput() == false)
-            {
-                string rsem = (string)calculate.RSEm();
-                MessageBox.Show(rsem);
-                return;
-            }
-            if (EOutput() == true && Emoutput() == true)
-            {
-                if (Outputs())
+                if (EOutput() && Emoutput())
                 {
-                    string sum = (string)calculate.Sum(0, 0);
-                    MessageBox.Show(sum);
+                    int Num1 = Convert.ToInt32(txtNum1.Text);
+                    int Num2 = Convert.ToInt32(txtNum2.Text);
+                    int SUM = (int)calculate.Sum((int)Num1, (int)Num2);
+                    MessageBox.Show("answer :" + SUM);
                 }
                 else
                 {
-                    int sum = (int)calculate.Sum(0, 0);
-                    MessageBox.Show("Answer" + " " + sum);
+                    MessageBox.Show("please enter just number");
+                }
+            }
+            else
+            {
+                if (!EOutput())
+                {
+                    string rse = (string)calculate.RSE();
+                    MessageBox.Show(rse);
+                    return;
+                }
+                if (!Emoutput())
+                {
+                    string rsem = (string)calculate.RSEm();
+                    MessageBox.Show(rsem);
+                    return;
+                }
+                if (EOutput() && Emoutput())
+                {
+                    if (Outputs())
+                    {
+                        string sum = (string)calculate.Sum();
+                        MessageBox.Show(sum);
+                    }
+                    else
+                    {
+                        int sum = (int)calculate.Sum();
+                        MessageBox.Show("Answer" + " " + sum);
+                    }
                 }
             }
         }
         private void btnMultiplication_Click(object sender, EventArgs e)
         {
-            if (EOutput() == false)
+            if (CheckBox.Checked)
             {
-                string rse = (string)calculate.RSE();
-                MessageBox.Show(rse);
-                return;
-            }
-            if (Emoutput() == false)
-            {
-                string rsem = (string)calculate.RSEm();
-                MessageBox.Show(rsem);
-                return;
-            }
-            if (EOutput() == true && Emoutput() == true)
-            {
-                if (Outputs())
+                if (EOutput() && Emoutput())
                 {
-                    string multiplication = (string)calculate.Multiplication(0, 0);
-                    MessageBox.Show(multiplication);
+                    int Num1 = Convert.ToInt32(txtNum1.Text);
+                    int Num2 = Convert.ToInt32(txtNum2.Text);
+                    int MUL = (int)calculate.Multiplication((int)Num1, (int)Num2);
+                    MessageBox.Show("answer :" + MUL);
                 }
                 else
                 {
-                    int multiplication = (int)calculate.Multiplication(2, 2);
-                    MessageBox.Show("Answer" + " " + multiplication);
+                    MessageBox.Show("please enter just number");
+                }
+            }
+            else
+            {
+                if (!EOutput())
+                {
+                    string rse = (string)calculate.RSE();
+                    MessageBox.Show(rse);
+                    return;
+                }
+                if (!Emoutput())
+                {
+                    string rsem = (string)calculate.RSEm();
+                    MessageBox.Show(rsem);
+                    return;
+                }
+                if (EOutput() && Emoutput())
+                {
+                    if (Outputs())
+                    {
+                        string multiplication = (string)calculate.Multiplication();
+                        MessageBox.Show(multiplication);
+                    }
+                    else
+                    {
+                        int multiplication = (int)calculate.Multiplication();
+                        MessageBox.Show("Answer" + " " + multiplication);
+                    }
                 }
             }
         }
         private void btnDivision_Click(object sender, EventArgs e)
         {
-            if (EOutput() == false)
+            if (CheckBox.Checked)
             {
-                string rse = (string)calculate.RSE();
-                MessageBox.Show(rse);
-                return;
-            }
-            if (Emoutput() == false)
-            {
-                string rsem = (string)calculate.RSEm();
-                MessageBox.Show(rsem);
-                return;
-            }
-            if (EOutput() == true && Emoutput() == true)
-            {
-                if (Outputs())
+                if (EOutput() && Emoutput())
                 {
-                    string division = (string)calculate.Division(0, 0);
-                    MessageBox.Show(division);
+                    int Num1 = Convert.ToInt32(txtNum1.Text);
+                    int Num2 = Convert.ToInt32(txtNum2.Text);
+                    float DIV = (int)calculate.Division((int)Num1, (int)Num2);
+                    MessageBox.Show("answer :" + DIV);
                 }
                 else
                 {
-                    int division = (int)calculate.Division(0, 0);
-                    MessageBox.Show("Answer" + " " + division);
+                    MessageBox.Show("please enter just number");
+                }
+            }
+            else
+            {
+                if (!EOutput())
+                {
+                    string rse = (string)calculate.RSE();
+                    MessageBox.Show(rse);
+                    return;
+                }
+                if (!Emoutput())
+                {
+                    string rsem = (string)calculate.RSEm();
+                    MessageBox.Show(rsem);
+                    return;
+                }
+                if (EOutput() && Emoutput())
+                {
+                    if (Outputs())
+                    {
+                        string division = (string)calculate.Division();
+                        MessageBox.Show(division);
+                    }
+                    else
+                    {
+                        int division = (int)calculate.Division();
+                        MessageBox.Show("Answer" + " " + division);
+                    }
                 }
             }
         }
@@ -160,25 +233,23 @@ namespace Ritard_Calculator
             try
             {
                 num1 = Convert.ToInt32(txtNum1.Text);
-                return EmIsValid = true;
             }
             catch
             {
                 if (txtNum1.Text != "")
                 {
-                    return EmIsValid = false;
+                    EmIsValid = false;
                 }
             }
             try
             {
                 num2 = Convert.ToInt32(txtNum2.Text);
-                return EmIsValid = true;
             }
             catch
             {
                 if (txtNum2.Text != "")
                 {
-                    return EmIsValid = false;
+                    EmIsValid = false;
                 }
             }
             return EmIsValid;
@@ -189,28 +260,33 @@ namespace Ritard_Calculator
             try
             {
                 num1 = Convert.ToInt32(txtNum1.Text);
-                return EIsValid = true;
             }
             catch
             {
                 if (txtNum1.Text == "")
                 {
-                    return EIsValid = false;
+                    EIsValid = false;
                 }
             }
             try
             {
                 num2 = Convert.ToInt32(txtNum2.Text);
-                return EIsValid;
             }
             catch
             {
                 if (txtNum2.Text == "")
                 {
-                    return EIsValid = false;
+                    EIsValid = false;
                 }
             }
             return EIsValid;
+        }
+        private void toolTip_Popup(object sender, PopupEventArgs e)
+        {
+            //toolTip.SetToolTip(CheckBox , "check this square for regular calculator ");
+            //toolTip.InitialDelay = 500;
+            //toolTip.AutoPopDelay = 5000;
+            //toolTip.ShowAlways = true;
         }
         private void txtNumber1_ValueChanged(object sender, EventArgs e)
         {
@@ -225,6 +301,10 @@ namespace Ritard_Calculator
 
         }
         private void lblText2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void CheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

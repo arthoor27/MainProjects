@@ -5,71 +5,44 @@ using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Ritard_Calculator
 {
     internal class RCalculate : RandomNumber, ICalculate
     {
         RandomNumber randomNumber = new RandomNumber();
-        public object Division(int num1, int num2)
+        public object Division()
         {
             string RandomString;
             int RandomNumber;
             bool outputvalue;
             randomNumber.RNumber(out RandomString, out RandomNumber, out outputvalue);
-            if (OutputValue())
-            {
-                return RandomString;
-            }
-            else
-            {
-                return RandomNumber;
-            }
+            return outputvalue ? (object)RandomString : (object)RandomNumber;
         }
-        public object Multiplication(int num1, int num2)
+        public object Multiplication()
         {
             string RandomString;
             int RandomNumber;
             bool outputvalue;
             randomNumber.RNumber(out RandomString, out RandomNumber, out outputvalue);
-            if (OutputValue())
-            {
-                return RandomString;
-            }
-            else
-            {
-                return RandomNumber;
-            }
+            return outputvalue ? (object)RandomString :(object) RandomNumber;
         }
-        public object Subtraction(int num1, int num2)
+        public object Subtraction()
         {
             string RandomString;
             int RandomNumber;
             bool outputvalue;
             randomNumber.RNumber(out RandomString, out RandomNumber, out outputvalue);
-            if (OutputValue())
-            {
-                return RandomString;
-            }
-            else
-            {
-                return RandomNumber;
-            }
+            return outputvalue ? (object)RandomString : (object)RandomNumber;
         }
-        public object Sum(int num1, int num2)
+        public object Sum()
         {
             string RandomString;
             int RandomNumber;
             bool outputvalue;
             randomNumber.RNumber(out RandomString, out RandomNumber, out outputvalue);
-            if (OutputValue())
-            {
-                return RandomString;
-            }
-            else
-            {
-                return RandomNumber;
-            }
+            return outputvalue ? (object)RandomString : (object)RandomNumber;
         }
         public string RSEm()
         {
@@ -94,6 +67,26 @@ namespace Ritard_Calculator
             return outputvalue;
             // it has a rule for str or int 
         }
-
+        public int Sum(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+        public int Subtraction(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+        public int Multiplication(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        public float Division(int num1, int num2)
+        {
+            if (num2 == 0)
+            {
+                MessageBox.Show("cant divide by 0");
+                return 0;
+            }
+            return (float) num1 / num2;
+        }
     }
 }

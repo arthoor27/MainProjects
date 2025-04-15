@@ -1,26 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\AnyDesk.exe||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|c:\\users\\hp\\desktop\\lingangul\\mainprojects\\mainprojects\\ritard_calculator v1.1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|c:\\users\\hp\\desktop\\lingangul\\ritard_calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|c:\\users\\hp\\desktop\\lingangul\\mainprojects\\mainprojects\\ritard_calculator v1.1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|c:\\users\\hp\\desktop\\lingangul\\ritard_calculator\\rcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|c:\\users\\hp\\desktop\\lingangul\\mainprojects\\mainprojects\\ritard_calculator v1.1.0\\rcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:rcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\randomnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\randomnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:randomnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A93A273-E6D9-4F42-A48A-809F836EA60E}|Ritard_Calculator.csproj|solutionrelative:icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,64 +38,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAiwIUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "Title": "AnyDesk.exe",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\AnyDesk.exe",
+              "RelativeDocumentMoniker": "..\\..\\..\\Ritard_Calculator\\AnyDesk.exe",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\AnyDesk.exe",
+              "RelativeToolTip": "..\\..\\..\\Ritard_Calculator\\AnyDesk.exe",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAQwJYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
               "WhenOpened": "2025-03-30T16:39:48.763Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\Form1.cs",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAEwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:30:13.176Z",
+              "WhenOpened": "2025-04-15T13:42:47.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:42:46.047Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RCalculate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\RCalculate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\RCalculate.cs",
               "RelativeDocumentMoniker": "RCalculate.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\RCalculate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\RCalculate.cs",
               "RelativeToolTip": "RCalculate.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwEUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T16:37:03.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RandomNumber.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\RandomNumber.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\RandomNumber.cs",
               "RelativeDocumentMoniker": "RandomNumber.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\RandomNumber.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\RandomNumber.cs",
               "RelativeToolTip": "RandomNumber.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwCoAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T23:04:24.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T23:04:24.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ICalculate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\ICalculate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\ICalculate.cs",
               "RelativeDocumentMoniker": "ICalculate.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\Ritard_Calculator\\ICalculate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\lingangul\\MainProjects\\MainProjects\\Ritard_Calculator V1.1.0\\ICalculate.cs",
               "RelativeToolTip": "ICalculate.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T20:32:22.107Z",
               "EditorCaption": ""
