@@ -171,7 +171,7 @@ namespace Ritard_Calculator
                 {
                     int Num1 = Convert.ToInt32(txtNum1.Text);
                     int Num2 = Convert.ToInt32(txtNum2.Text);
-                    float DIV = (int)calculate.Division((int)Num1, (int)Num2);
+                    float DIV = (float)calculate.Division((int)Num1, (int)Num2);
                     MessageBox.Show("answer :" + DIV);
                 }
                 else
@@ -283,10 +283,7 @@ namespace Ritard_Calculator
         }
         private void toolTip_Popup(object sender, PopupEventArgs e)
         {
-            //toolTip.SetToolTip(CheckBox , "check this square for regular calculator ");
-            //toolTip.InitialDelay = 500;
-            //toolTip.AutoPopDelay = 5000;
-            //toolTip.ShowAlways = true;
+
         }
         private void txtNumber1_ValueChanged(object sender, EventArgs e)
         {
